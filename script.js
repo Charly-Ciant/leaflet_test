@@ -12,7 +12,7 @@ OrthoRM: L.tileLayer.wms('https://public.sig.rennesmetropole.fr/geoserver/ows?',
 RMfondcarte: L.tileLayer.wms('https://public.sig.rennesmetropole.fr/geoserver/ows', {layers: 'ref_fonds:pvci_simple_gris'})  
  };
 
-fondcartes.STADIA.addTo(map);
+fondcartes.OSM.addTo(map);
 
 
 // Ajouter une attribution personnalisée directement via la carte
